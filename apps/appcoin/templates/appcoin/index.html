@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is an index page</title>
+  </head>
+  <body>
+    <h1>Index Page Success!</h1>
+    <div class="display">
+      <!-- ordered list containing top currencies -->
+      {% for i in currency %}
+      {{ i.name }}<br> <a href="{{i.project_url}}">Click Here for More</a><br> <a href="showCurrency/{{i.id}}" >Click Here for Summary</a><br>
+      {% endfor %}
+      <a href="/new">Tell us about a new Currency </a>
+    </div><br>
+    <div class="display">
+      <!-- ordered list containing top appcoins -->
+      {% for x in appcoin %}
+      Title: {{x.title}}<br> Created By: {{x.creator}}<br> Collaborators: {{x.collaborator}}<br> Followers: {{x.follower}}<br> Credibility Rating: {{x.cred_rating}}<br>
+      {% endfor %}
+      <a href="/new">Tell us about a new AppCoin </a>
+    </div>
+  </body>
+</html>

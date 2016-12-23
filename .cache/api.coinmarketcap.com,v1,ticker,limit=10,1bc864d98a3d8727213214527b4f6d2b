@@ -1,0 +1,176 @@
+status: 200
+content-length: 5058
+content-location: https://api.coinmarketcap.com/v1/ticker/?limit=10
+set-cookie: __cfduid=d03356af644438cf6be295ecb8884f4e61482529469;
+ expires=Sat, 23-Dec-17 21:44:29 GMT; path=/; domain=.coinmarketcap.com;
+ HttpOnly
+server: cloudflare-nginx
+connection: keep-alive
+-content-encoding: gzip
+date: Fri, 23 Dec 2016 21:44:29 GMT
+access-control-allow-origin: *
+content-type: application/json
+cf-ray: 315efebf9e18517c-SJC
+
+[
+    {
+        "id": "bitcoin", 
+        "name": "Bitcoin", 
+        "symbol": "BTC", 
+        "rank": "1", 
+        "price_usd": "909.949", 
+        "price_btc": "1.0", 
+        "24h_volume_usd": "250433000.0", 
+        "market_cap_usd": "14613689945.0", 
+        "available_supply": "16059900.0", 
+        "total_supply": "16059900.0", 
+        "percent_change_1h": "1.16", 
+        "percent_change_24h": "5.16", 
+        "percent_change_7d": "16.02", 
+        "last_updated": "1482529167"
+    }, 
+    {
+        "id": "ethereum", 
+        "name": "Ethereum", 
+        "symbol": "ETH", 
+        "rank": "2", 
+        "price_usd": "7.28031", 
+        "price_btc": "0.00799959", 
+        "24h_volume_usd": "18627900.0", 
+        "market_cap_usd": "634890240.0", 
+        "available_supply": "87206484.0", 
+        "total_supply": "87206484.0", 
+        "percent_change_1h": "0.2", 
+        "percent_change_24h": "-5.53", 
+        "percent_change_7d": "-7.21", 
+        "last_updated": "1482529161"
+    }, 
+    {
+        "id": "ripple", 
+        "name": "Ripple", 
+        "symbol": "XRP", 
+        "rank": "3", 
+        "price_usd": "0.00632361", 
+        "price_btc": "0.00000695", 
+        "24h_volume_usd": "3404450.0", 
+        "market_cap_usd": "227672703.0", 
+        "available_supply": "36003596482.0", 
+        "total_supply": "99996713232.0", 
+        "percent_change_1h": "0.02", 
+        "percent_change_24h": "-0.34", 
+        "percent_change_7d": "-5.86", 
+        "last_updated": "1482529443"
+    }, 
+    {
+        "id": "litecoin", 
+        "name": "Litecoin", 
+        "symbol": "LTC", 
+        "rank": "4", 
+        "price_usd": "4.21673", 
+        "price_btc": "0.00463402", 
+        "24h_volume_usd": "11075400.0", 
+        "market_cap_usd": "206649094.0", 
+        "available_supply": "49006954.0", 
+        "total_supply": "49006954.0", 
+        "percent_change_1h": "0.23", 
+        "percent_change_24h": "13.65", 
+        "percent_change_7d": "16.24", 
+        "last_updated": "1482529443"
+    }, 
+    {
+        "id": "monero", 
+        "name": "Monero", 
+        "symbol": "XMR", 
+        "rank": "5", 
+        "price_usd": "9.52339", 
+        "price_btc": "0.0104658", 
+        "24h_volume_usd": "4040940.0", 
+        "market_cap_usd": "129586838.0", 
+        "available_supply": "13607217.0", 
+        "total_supply": "13607217.0", 
+        "percent_change_1h": "1.23", 
+        "percent_change_24h": "4.89", 
+        "percent_change_7d": "11.97", 
+        "last_updated": "1482529449"
+    }, 
+    {
+        "id": "ethereum-classic", 
+        "name": "Ethereum Classic", 
+        "symbol": "ETC", 
+        "rank": "6", 
+        "price_usd": "1.07011", 
+        "price_btc": "0.00117584", 
+        "24h_volume_usd": "3602200.0", 
+        "market_cap_usd": "93257063.0", 
+        "available_supply": "87147175.0", 
+        "total_supply": "87147175.0", 
+        "percent_change_1h": "1.17", 
+        "percent_change_24h": "-3.6", 
+        "percent_change_7d": "-0.43", 
+        "last_updated": "1482529170"
+    }, 
+    {
+        "id": "dash", 
+        "name": "Dash", 
+        "symbol": "DASH", 
+        "rank": "7", 
+        "price_usd": "9.4496", 
+        "price_btc": "0.0103848", 
+        "24h_volume_usd": "2792910.0", 
+        "market_cap_usd": "65896851.0", 
+        "available_supply": "6973507.0", 
+        "total_supply": "6973507.0", 
+        "percent_change_1h": "-0.16", 
+        "percent_change_24h": "-3.98", 
+        "percent_change_7d": "-3.52", 
+        "last_updated": "1482529445"
+    }, 
+    {
+        "id": "maidsafecoin", 
+        "name": "MaidSafeCoin", 
+        "symbol": "MAID", 
+        "rank": "8", 
+        "price_usd": "0.106037", 
+        "price_btc": "0.00011653", 
+        "24h_volume_usd": "959276.0", 
+        "market_cap_usd": "47987300.0", 
+        "available_supply": "452552412.0", 
+        "total_supply": "452552412.0", 
+        "percent_change_1h": "0.34", 
+        "percent_change_24h": "-1.32", 
+        "percent_change_7d": "14.16", 
+        "last_updated": "1482529448"
+    }, 
+    {
+        "id": "peerplays", 
+        "name": "Peerplays", 
+        "symbol": "PEERPLAYS", 
+        "rank": "9", 
+        "price_usd": "41.6116", 
+        "price_btc": "0.0457227", 
+        "24h_volume_usd": "30994.9", 
+        "market_cap_usd": "41611600.0", 
+        "available_supply": "1000000.0", 
+        "total_supply": "1000000.0", 
+        "percent_change_1h": "1.16", 
+        "percent_change_24h": "62.47", 
+        "percent_change_7d": "140.0", 
+        "last_updated": "1482529169"
+    }, 
+    {
+        "id": "steem", 
+        "name": "Steem", 
+        "symbol": "STEEM", 
+        "rank": "10", 
+        "price_usd": "0.141278", 
+        "price_btc": "0.00015524", 
+        "24h_volume_usd": "112094.0", 
+        "market_cap_usd": "32584632.0", 
+        "available_supply": "230641940.0", 
+        "total_supply": "247616034.0", 
+        "percent_change_1h": "0.47", 
+        "percent_change_24h": "6.66", 
+        "percent_change_7d": "-18.85", 
+        "last_updated": "1482529165"
+    }
+]

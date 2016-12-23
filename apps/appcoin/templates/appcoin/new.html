@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create a New Resource</title>
+  </head>
+  <body>
+    <form class="" action="/currency/create" method="post">
+      {% csrf_token %}
+      Currency Name: <input type="text" name="name"><br>
+      Project URL: <input type="text" name="project_url"><br>
+      Summary URL: <input type="text" name="summary_url"><br>
+      <input type="submit" value="Create a New Currency">
+    </form><br>
+    <form action="/appcoin/create" method="post">
+      {% csrf_token %}
+      AppCoin Title: <input type="text" name="title"><br>
+      Created By: <input type="text" name="creator"><br>
+      Collaborators: <input type="text" name="collaborator"><br>
+      Followers: <input type="text" name="follower"><br>
+      Credibility Score: <input type="text" name="cred_rating"><br>
+      <input type="submit" value="Create New AppCoin">
+    </form>
+  </body>
+</html>
