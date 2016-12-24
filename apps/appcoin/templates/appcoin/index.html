@@ -20,5 +20,26 @@
       {% endfor %}
       <a href="/new">Tell us about a new AppCoin </a>
     </div>
+    <div id="datadump">
+      <h4>Here are the most recent 10:</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Symbol</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for data in datadump %}
+          <tr>
+            <td>{{data.data_id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.symbol}}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>

@@ -1,6 +1,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+import datetime
 
 # Create your models here.
 class CurrencyManager(models.Manager):
@@ -24,8 +25,23 @@ class ACManager(models.Manager):
         pass
 
 class DataDumpManager(models.Manager):
-    def add(self, postData):
-        pass
+    def add(self, content):
+        for item in content:
+            self.create(data_id=item['id'], 
+                name=item['name'],
+                symbol=item['symbol'],
+                rank=item['rank'],
+                price_usd=item['price_usd'],
+                price_btc=item['price_btc'],
+                volume_usd=item['24h_volume_usd'],
+                market_cap_usd=item['market_cap_usd'],
+                available_supply=item['available_supply'],
+                total_supply=item['total_supply'],
+                percent_change_1h=item['percent_change_1h'],
+                percent_change_24h=item['percent_change_24h'],
+                percent_change_7d=item['percent_change_7d'],
+                last_updated=datetime.datetime.fromtimestamp(int(item['last_updated'])).strftime('%Y-%m-%d %H:%M:%S')
+                )                       
 
     def update(self, postData):
         pass
